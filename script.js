@@ -66,7 +66,14 @@ function calculate()
         let expression = screen.innerText;
         expression = expression.replace(/(\d+)%/g, "($1*0.01)");
         let result = eval(expression);
-        screen.innerText = result;
+        if (result === Infinity || result === -Infinity)
+        {
+            screen.innerText = "Cannot divide by 0";
+        }
+        else
+        {
+            screen.innerText = result;
+        }
     } 
     catch (error) 
     {
