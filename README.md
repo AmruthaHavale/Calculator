@@ -17,14 +17,15 @@ A simple and responsive web-based calculator built using HTML, CSS, and JavaScri
 - JavaScript
  
 ## Project Structure
- 
+
+```
 Calculator/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
-
+```
 ## Live Demo
  
 🔗 **Deployed Application:**
